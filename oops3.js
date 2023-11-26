@@ -46,7 +46,7 @@ class Product {
 
 
   const product1 = new Product('Shirt', 25, 10);
-  const product2 = new Product('dress', 40, 15);
+  const product2 = new Product('saree', 40, 15);
   
   const customer = new Customer('John', 'john@example.com');
   customer.cart.addProduct(product1, 2);
